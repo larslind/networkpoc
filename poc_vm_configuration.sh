@@ -1,5 +1,5 @@
 curl -O https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm
-rpm -i -f iperf3-3.1.3-1.fc24.x86_64.rpm
+sudo rpm -i -f iperf3-3.1.3-1.fc24.x86_64.rpm
 
 
 sudo /sbin/ifconfig eth0 txqueuelen 10000 #Increase queue length in ETH interface  –
