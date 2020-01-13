@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -O https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm
 sudo rpm -i -f iperf3-3.1.3-1.fc24.x86_64.rpm
 
